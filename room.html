@@ -10,11 +10,12 @@
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
       <link
-         href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500;700&display=swap"
+         href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500;700&display=swap"
          rel="stylesheet"
       />
       <!--? Styles CSS -->
-      <link rel="stylesheet" href="./style/main.css" />
+      <link rel="stylesheet" href="./style/global.css" />
+      <link rel="stylesheet" href="./style/room.css" />
    </head>
    <body>
       <div id="room" class="content">
@@ -49,15 +50,47 @@
                      id="question"
                      placeholder="O que você quer perguntar?"
                   ></textarea>
-
                   <footer>
                      <div>
-                        <img src="" alt="" />
+                        <img src="./assets/lock.svg" alt="Icone do Cadeado" />
                         Esta perguntar é anônima
                      </div>
                      <button>Enviar</button>
                   </footer>
                </form>
+            </section>
+            <section id="questions">
+               <h2 class="sr-only">Perguntas da Comunidade</h2>
+               <div class="questions__box">
+                  <!--? questions wrapper  -->
+                  <div class="question__wrapper">
+                     <div class="question__content">
+                        <div class="users">
+                           <img src="/assets/avatar.svg" alt="Avatar" />
+                        </div>
+                        <div class="question">
+                           <p>
+                              Qual a diferença entre const, var e let no
+                              JavaScript
+                           </p>
+                        </div>
+                     </div>
+                     <div class="actions">
+                        <a href="#" class="check">
+                           <img
+                              src="/assets/check.svg"
+                              alt="Marcar como lida"
+                           />
+                           Marcar como lida
+                        </a>
+                        <a href="#" class="delelte">
+                           <img src="/assets/trash.svg" alt="Exluir" />
+                           Excluir
+                        </a>
+                     </div>
+                  </div>
+                  <!--? questions wrapper  -->
+               </div>
             </section>
          </main>
       </div>
