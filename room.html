@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
    <head>
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -28,7 +28,7 @@
                   #323243
                   <img
                      src="./assets/room.svg"
-                     alt="Icone Copiar numero da Sala"
+                     alt="Ícone Copiar numero da Sala"
                   />
                </div>
                <a href="#" class="button">
@@ -65,8 +65,8 @@
                   <!--? questions wrapper  -->
                   <div class="question__wrapper">
                      <div class="question__content">
-                        <div class="users">
-                           <img src="/assets/avatar.svg" alt="Avatar" />
+                        <div class="user">
+                           <img src="/assets/user.svg" alt="Avatar" />
                         </div>
                         <div class="question">
                            <p>
@@ -83,8 +83,89 @@
                            />
                            Marcar como lida
                         </a>
-                        <a href="#" class="delelte">
-                           <img src="/assets/trash.svg" alt="Exluir" />
+                        <a href="#" class="delete">
+                           <img src="/assets/trash.svg" alt="Excluir" />
+                           Excluir
+                        </a>
+                     </div>
+                  </div>
+                  <!--? questions wrapper  -->
+                  <!--? questions wrapper  -->
+                  <div class="question__wrapper">
+                     <div class="question__content">
+                        <div class="user">
+                           <img src="/assets/user.svg" alt="Avatar" />
+                        </div>
+                        <div class="question">
+                           <p>O que é JavaScript?</p>
+                        </div>
+                     </div>
+                     <div class="actions">
+                        <a href="#" class="check">
+                           <img
+                              src="/assets/check.svg"
+                              alt="Marcar como lida"
+                           />
+                           Marcar como lida
+                        </a>
+                        <a href="#" class="delete">
+                           <img src="/assets/trash.svg" alt="Excluir" />
+                           Excluir
+                        </a>
+                     </div>
+                  </div>
+                  <!--? questions wrapper  -->
+                  <!--? questions wrapper  -->
+                  <div class="question__wrapper">
+                     <div class="question__content">
+                        <div class="user">
+                           <img src="/assets/user.svg" alt="Avatar" />
+                        </div>
+                        <div class="question">
+                           <p>
+                              Diam aliquyam sed lorem rebum eirmod dolor ea et
+                              aliquyam kasd, et sed magna eirmod nonumy
+                              sadipscing lorem no. Stet et takimata accusam
+                              dolores ipsum est sea et tempor. Sed dolores
+                              invidunt justo dolor et at eos, sed sea erat eos
+                              vero labore accusam amet eos. Eirmod diam ut sit
+                              sit, takimata et ea dolore labore sit stet clita.
+                              Clita stet sit sed no. Dolore dolor sanctus
+                              sanctus dolores eos lorem labore labore, sed ipsum
+                              rebum eos duo consetetur ipsum justo tempor, sed
+                              amet sit eos ea vero diam. Diam dolor sed eirmod
+                              voluptua clita. Vero sit lorem takimata diam.
+                           </p>
+                        </div>
+                     </div>
+                     <div class="actions">
+                        <a href="#" class="check">
+                           <img
+                              src="/assets/check.svg"
+                              alt="Marcar como lida"
+                           />
+                           Marcar como lida
+                        </a>
+                        <a href="#" class="delete">
+                           <img src="/assets/trash.svg" alt="Excluir" />
+                           Excluir
+                        </a>
+                     </div>
+                  </div>
+                  <!--? questions wrapper  -->
+                  <!--? questions wrapper  -->
+                  <div class="question__wrapper read">
+                     <div class="question__content">
+                        <div class="user">
+                           <img src="/assets/user.svg" alt="Avatar" />
+                        </div>
+                        <div class="question">
+                           <p>O que é TypeScript?</p>
+                        </div>
+                     </div>
+                     <div class="actions">
+                        <a href="#" class="delete">
+                           <img src="/assets/trash.svg" alt="Excluir" />
                            Excluir
                         </a>
                      </div>
@@ -93,6 +174,30 @@
                </div>
             </section>
          </main>
+      </div>
+      <!--* DIV ID ==> ROOM  -->
+      <!--! MODAL  -->
+      <div class="modal__wrapper">
+         <div class="modal">
+            <h2>Excluir pergunta</h2>
+            <p>Tem Certeza que você deseja excluir esta pergunta?</p>
+            <form action="#">
+               <label for="password" class="sr-only">
+                  Digite sua senha admin!
+               </label>
+               <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  placeholder="Digite sua senha!"
+               />
+
+               <div class="buttons__group">
+                  <div class="button gray">Cancelar</div>
+                  <button class="red">Sim, excluir</button>
+               </div>
+            </form>
+         </div>
       </div>
    </body>
 </html>
