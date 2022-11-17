@@ -1,0 +1,27 @@
+{
+   "name": "nlw06_discovery",
+   "version": "1.0.0",
+   "description": "Projeto desenvolvido para gerenciar perguntas",
+   "main": "src/server.js",
+   "scripts": {
+      "start": "nodemon ."
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/pauloWeslleY/nlw06_discovery.git"
+   },
+   "keywords": [],
+   "author": "Weslley Lima",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/pauloWeslleY/nlw06_discovery/issues"
+   },
+   "homepage": "https://github.com/pauloWeslleY/nlw06_discovery#readme",
+   "dependencies": {
+      "ejs": "^3.1.8",
+      "express": "^4.18.2"
+   },
+   "devDependencies": {
+      "nodemon": "^2.0.20"
+   }
+}
